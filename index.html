@@ -1,69 +1,221 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="images/icons8-h-16.png" type="image/x-icon">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <!--=============== REMIXICONS ===============-->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin=""> -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="styles/styles.css">
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+   <title>Himanshu Chauhan portfolio website</title>
+</head>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <span class="nav__logo-circle">H</span>
+            <span class="nav__logo-name">Portfolio.</span>
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <span class="nav__title">Menu</span>
+            <h3 class="nav__name">Himanshu Chauhan</h3>
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link">Home</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About Me</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#project" class="nav__link">Project</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link">Contact Me</a>
+               </li>
+            </ul>
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+         <div class="nav__buttons">
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-4-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            
-         </section>
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <h1 class="home__name">Himanshu.</h1>
+            <div class="home__perfil">
+               <div class="home__image">
+                  <img src="images/Himanshu_Chauhan.jpeg" alt="image" class="home__img">
+                  <div class="home__shadow"></div>
+                  <img src="images/curved-arrow.svg" alt="home__arrow" class="home__arrow">
+                  <img src="images/random-lines.svg" alt="home__line" class="home__line">
+                  <div class="geometric-box"></div>
+                  <div class="home__social">
+                     <a href="" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                     <a href="" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                     <a href="https://github.com/Himanshuch8055" target="_blank" class="home__social-link">
+                        <i class="ri-github-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="home__info">
+               <p class="home__description">
+                  <b>Full Stack Developer 🙂</b>, with knowledge in web development and design, Passionate programmer in
+                  love with JavaScript ❤️, Contributing to open source 🚀
+               </p>
+               <a href="#about" class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+                  <span class="home__scroll-text">Scroll Down</span>
+               </a>
+            </div>
+         </div>
+      </section>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            
-         </section>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <h2 class="section__title-1">
+               <span>About Me.</span>
+            </h2>
+            <div class="about__perfil">
+               <div class="about__image">
+                  <img src="images/Himanshuch8055.png" alt="Himanshuch8055" class="about__img">
+                  <div class="about__shadow"></div>
+                  <div class="geometric-box"></div>
+                  <img src="images/random-lines.svg" alt="about__line" class="about__line">
+                  <div class="about__box"></div>
+               </div>
+            </div>
+            <div class="about__info">
+               <p class="about__description">
+                  Passionate about creating <b>Web Pages</b> with <b>UI/UX</b> User Interface.
+               </p>
+               <ul class="about__list">
+                  <li class="about__item">
+                     <b>My Skills Are:</b> HTML, CSS, JavaScript, ReactJs, NodeJs, NextJs, Git & GitHub, Bootstrap,
+                     Tailwind CSS & Figma.
+                  </li>
+               </ul>
+               <div class="about__buttons">
+                  <a href="#contact" class="button">
+                     <i class="ri-send-plane-line"></i>Contact Me
+                  </a>
+                  <a href="" target="_blank" class="button__ghost">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+         <h2 class="section__title-2">
+            <span>Services.</span>
+         </h2>
+         <div class="services__container container grid">
+            <article class="services__card">
+               <div class="services__border"></div>
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-layout-4-line"></i>
+                  </div>
+                  <h2 class="services__title">Web Design</h2>
+                  <p class="services__description">
+                     Beautiful and elegant designs with
+                     interfaces that are intuitive, efficient
+                     and pleasant to use for the user.
+                  </p>
+               </div>
+            </article>
+            <article class="services__card">
+               <div class="services__border"></div>
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-code-box-line"></i>
+                  </div>
+                  <h2 class="services__title">Development</h2>
+                  <p class="services__description">
+                     Beautiful and elegant designs with
+                     interfaces that are intuitive, efficient
+                     and pleasant to use for the user.
+                  </p>
+               </div>
+            </article>
+            <article class="services__card">
+               <div class="services__border"></div>
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-smartphone-line"></i>
+                  </div>
+                  <h2 class="services__title">Mobile App</h2>
+                  <p class="services__description">
+                     Beautiful and elegant designs with
+                     interfaces that are intuitive, efficient
+                     and pleasant to use for the user.
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
 
-      <!--========== SCROLL UP ==========-->
-      
+      </section>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src=""></script>
+
+   <!--=============== EMAIL JS ===============-->
+
+
+   <!--=============== MAIN JS ===============-->
+   <script src="scripts/script.js"></script>
+</body>
+
 </html>
